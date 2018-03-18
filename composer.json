@@ -1,7 +1,7 @@
 {
-    "name": "douyasi/laravel-wang-editor",
+    "name": "rockymelody/laravel-wangeditor-upload",
     "description": "wangEditor for laravel",
-    "keywords": ["laravel", "wangEditor", "web editor", "douyasi", "wysiwyg"],
+    "keywords": ["laravel", "wangEditor", "web editor", "rockymelody", "wysiwyg"],
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Douyasi\\WangEditor\\": "src/"
+            "rockymelody\\WangEditor\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Douyasi\\WangEditor\\EditorServiceProvider"
+                "rockymelody\\WangEditor\\EditorServiceProvider"
             ],
             "dont-discover": [
                 "barryvdh/laravel-debugbar"
